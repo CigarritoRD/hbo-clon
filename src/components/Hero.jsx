@@ -30,9 +30,9 @@ const Hero = () => {
         <div className='text-white text-center mb-16 px-5'>
           <h4 className='text-2xl mt-2'>COMIENZA A DISFRUTAR LAS MEJORES HISTORIAS</h4>
           <h4 className='text-3xl font-bold '>HECHAS PARA TI</h4>
-          <div className='text-center'>
+          <div className='text-center '>
             <img
-              className='px-5 inline-block max-w-[480px]'
+              className='px-5 inline-block w-full max-w-[480px]'
               src='https://hbomax-images.warnermediacdn.com/2021-09/hero_promo_purpline.png?host=wme-hbomax-drupal-prod.s3.amazonaws.com'
               alt=''
             />
