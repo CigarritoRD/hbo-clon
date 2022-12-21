@@ -12,7 +12,7 @@ const Home = () => {
       <Planes />
       <SliderNuevosFavoritos />
       <PostPlanSeccion />
-      <div className='bg-slate-900 px-[100px]'>
+      <div className='bg-slate-900 md:px-[100px]'>
         <PeliculasGratisSlider
           url={`https://api.themoviedb.org/3/movie/now_playing?api_key=f71b456052aff7baa010ea9469450e7b&page=1`}
         />

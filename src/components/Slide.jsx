@@ -4,8 +4,8 @@ const Slide = (props = {}) => {
   console.log(props);
   const { title, description, imagen, actor } = props;
   return (
-    <div className='flex flex-row-reverse gap-12 mt-14 justify-center flex-[0_0_100%] snap-start p-4'>
-      <div className=' bg-black border-2 flex-1'></div>
+    <div className='flex flex-col md:flex-row-reverse gap-12 mt-14 justify-center flex-[0_0_100%] snap-start p-4'>
+      <div className=' bg-black border-2 flex-1 min-h-[200px]'></div>
 
       <div className='flex flex-col gap-4 flex-1'>
         <div>
