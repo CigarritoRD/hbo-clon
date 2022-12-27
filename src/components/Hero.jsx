@@ -17,9 +17,10 @@ const Hero = () => {
         <iframe
           className='z-[-20]'
           controls={0}
-          src={`https://www.youtube.com/embed/${urlVideos[trailerID]}?autoplay=1&mute=1&loop=1&controls=0&playlist=${urlVideos[trailerID]}`}
-          title='3d models'
-          allow=' autoplay; clipboard-write;  gyroscope; picture-in-picture'
+          src={`https://www.youtube.com/embed/${urlVideos[trailerID]}?autoplay=1&mute=1&loop=1&playsinline=1&defaultmuted=1&controls=0&playlist=${urlVideos[trailerID]}`}
+          title='trailer'
+          allow=' autoplay; clipboard-write;  gyroscope; picture-in-picture: playsinline; defaultmuted;
+          ;'
         ></iframe>
 
         <div className='flex flex-col mx-auto justify-end h-full w-full max-w-[900px] bord '>
