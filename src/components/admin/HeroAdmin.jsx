@@ -36,8 +36,12 @@ const HeroAdmin = ({ movie }) => {
           <Link className='hover:text-slate-100 transition-colors'>
             <RxHamburgerMenu size={30} />
           </Link>
-          <Link className='hover:text-slate-100 transition-colors'>Peliculas</Link>
-          <Link className='hover:text-slate-100 transition-colors'>Series</Link>
+          <Link to={"/peliculas"} className='hover:text-slate-100 transition-colors'>
+            Peliculas
+          </Link>
+          <Link to={"/series"} className='hover:text-slate-100 transition-colors'>
+            Series
+          </Link>
         </div>
         <div className='flex items-center gap-3'>
           <Link to={"/home"}>

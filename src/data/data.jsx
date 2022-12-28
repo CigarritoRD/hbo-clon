@@ -45,11 +45,11 @@ export const MOVIES_URLS = {
 };
 export const TV_URLS = {
   masvaloradas:
-    "https://api.themoviedb.org/3/movie/top_rated?api_key=f71b456052aff7baa010ea9469450e7b&language=en-US&page=1",
+    "https://api.themoviedb.org/3/tv/top_rated?api_key=f71b456052aff7baa010ea9469450e7b&language=en-US&page=1",
   populares:
     "https://api.themoviedb.org/3/tv/popular?api_key=f71b456052aff7baa010ea9469450e7b&language=en-US&page=1",
   reproduciendose:
-    "https://api.themoviedb.org/3/movie/now_playing?api_key=f71b456052aff7baa010ea9469450e7b&page=1",
+    "https://api.themoviedb.org/3/tv/popular?api_key=f71b456052aff7baa010ea9469450e7b&language=en-US&page=2",
   proximamente:
-    "https://api.themoviedb.org/3/movie/upcoming?api_key=f71b456052aff7baa010ea9469450e7b&language=en-US&page=1",
+    "https://api.themoviedb.org/3/tv/top_rated?api_key=f71b456052aff7baa010ea9469450e7b&language=en-US&page=2",
 };

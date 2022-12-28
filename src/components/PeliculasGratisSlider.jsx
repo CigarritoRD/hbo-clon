@@ -17,10 +17,10 @@ const PeliculasSlider = ({ url, poster = true, width = "210px", height = "auto",
   };
 
   return (
-    <div className='px-8 relative py-8 mx-auto'>
+    <div className='md:px-8 relative py-8 mx-auto'>
       <div
         ref={carruselRef}
-        className={`flex gap-4 overflow-x-scroll whitespace-nowrap  scroll-smooth scrollbar-hide  w-full p-2 `}
+        className={`flex md:gap-4 gap-2 overflow-x-scroll whitespace-nowrap  scroll-smooth scrollbar-hide  w-full p-2 `}
       >
         {!loading &&
           peliculas.map((pelicula) => (
