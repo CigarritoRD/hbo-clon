@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getMovies } from "../services/getMovies";
 
-const useMovies = (url, poster) => {
+const useMovies = (url, poster = false) => {
   const [loading, setLoading] = useState(true);
   const [peliculas, setPeliculas] = useState([]);
 

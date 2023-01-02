@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className='overflow-hidden fixed w-full gap-4 px-4 h-14 items-center z-[100] bg-[#02021C] text-white flex justify-between'>
       <h1 className='text-xl md:text-3xl font-bold cursor-pointer'>HBOMAX</h1>
       <ul className='flex gap-4 items-center text-sm font-medium'>
-        <Link to={"/iniciar-sesion"}>
+        <Link to={"/home"}>
           <li className='cursor-pointer hover:text-slate-300 duration-300 text-[8px] md:text-sm'>
             INGRESA
           </li>

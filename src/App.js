@@ -7,6 +7,7 @@ import Watch from "./pages/admin/Watch";
 import Player from "./pages/admin/Player";
 import Peliculas from "./pages/admin/Peliculas";
 import Series from "./pages/admin/Series";
+import Search from "./pages/admin/Search";
 
 function App() {
   return (
@@ -18,8 +19,10 @@ function App() {
         <Route path='/home' element={<HomeAdmin />} />
         <Route path='/peliculas' element={<Peliculas />} />
         <Route path='/series' element={<Series />} />
-        <Route path='/watch/:id' element={<Watch />} />
+        <Route path='/watch/:tipo/:id' element={<Watch />} />
         <Route path='/player/:id' element={<Player />} />
+        <Route path='/search' element={<Search />} />
+        <Route path='/*' element={"404 no encontrado"} />
       </Routes>
     </>
   );

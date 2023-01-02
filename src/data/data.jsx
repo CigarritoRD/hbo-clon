@@ -1,3 +1,4 @@
+export const API_KEY = "api_key=f71b456052aff7baa010ea9469450e7b";
 export const dataSlider = [
   {
     title: "black adam",

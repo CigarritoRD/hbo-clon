@@ -7,11 +7,22 @@ const Peliculas = () => {
   return (
     <div className='bg-black'>
       <HeroAdmin />
-      <SliderMovies url={MOVIES_URLS.masvaloradas} width={300} title={"Universo HBO Max"} />
-      <SliderMovies url={MOVIES_URLS.populares} width={200} title={"Peliculas Populares"} />
+      <SliderMovies
+        url={MOVIES_URLS.masvaloradas}
+        tipo={"movie"}
+        width={300}
+        title={"Universo HBO Max"}
+      />
+      <SliderMovies
+        url={MOVIES_URLS.populares}
+        tipo={"movie"}
+        width={200}
+        title={"Peliculas Populares"}
+      />
       <SliderMovies
         url={MOVIES_URLS.proximamente}
         width={`200px`}
+        tipo={"movie"}
         title={"Proximamente en streaming"}
       />
     </div>
